@@ -259,19 +259,22 @@ btnUniverso.addEventListener("click", () => {
 const frases = document.querySelector(".frases");
 
 const textos = [
-    "Eres luz 💜",
+     "Eres luz 💜",
     "Eres tan brillante como tu sonrisa",
     "Que Dios te bendiga siempre",
     "Que hayas sonreído mucho hoy",
-    "🎂 Feliz cumpleaños Liz",
+
     "estoy muy orgulloso de ti",
     "lo estas haciendo muy bien",
     "Tu manera de ser es única 🦋🌷",
     "Quiero cuidarte siempre",
-    "🌷 Eres un 100 para mí 💯✨",
+    "🎂 Feliz cumpleaños Liz",
     "Tu energía inspira",
     "Nunca te apagues ✨",
+    "🌷 Eres un 100 para mí 💯✨",
     "Brillas más de lo que crees",
+    "Eres tan brillante como tu sonrisa",
+    "Que Dios te bendiga siempre",
     "El universo te eligió 💫"
     
     
