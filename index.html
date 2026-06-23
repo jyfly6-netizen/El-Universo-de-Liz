@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Universo de Lizeth 💜</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="fondoNeon"></div>
+
+    <div id="huellaContainer">
+
+        <div id="progreso">
+            <div id="barra"></div>
+        </div>
+
+        <div id="huella">
+    <img src="huella.png" alt="Huella Digital">
+</div>
+
+        <p id="textoHuella">
+            Mantén presionado para desbloquear 💜
+        </p>
+
+    </div>
+
+
+    <!-- NUEVA PANTALLA -->
+    <section id="registro" class="pantalla oculto">
+
+        <div class="card-registro">
+
+            <h2>Identidad Estelar 💜</h2>
+
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Ingresa tu nombre">
+
+            <input
+                type="date"
+                id="fecha">
+
+            <button id="validar">
+                Verificar ✨
+            </button>
+
+            <p id="error"></p>
+
+        </div>
+
+    </section>
+
+    <script type="module" src="app.js"></script>
+<!-- detallar alerta -->
+    <div id="mensajeEspecial" class="pantalla oculto">
+
+    <div class="card-mensaje">
+
+        <h2>Lizeth 💜</h2>
+
+        <p>
+            Eres una persona increíble.<br><br>
+            Nunca dejes de brillar.<br><br>
+            Sigue adelante,<br>
+            porque tu luz inspira más de lo que imaginas ✨
+        </p>
+
+        <button id="abrirUniverso">
+            Abrir mi universo 💜
+        </button>
+
+    </div>
+
+</div>
+<!-- pantalla de universo -->
+<section id="universo" class="pantalla oculto">
+
+    <div class="estrellas"></div>
+
+    <div class="nebulosa"></div>
+
+    <div class="centro">
+        <h1>Lizeth 💜</h1>
+    </div>
+    <div class="frases"></div>
+    <div class="corazones"></div>
+    <button id="cerrarUniverso" class="btn-cerrar">
+    Cerrar mi universo 💜
+</button>
+</section>
+
+</body>
+</html>
